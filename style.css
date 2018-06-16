@@ -1,11 +1,58 @@
 body {
-
+    /*background-color: rgba(214, 132, 111, 0.589) !important;*/
     background-image: url("https://s3-media4.fl.yelpcdn.com/bphoto/75-5BoySy54fDNAY793i8A/o.jpg");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("https://s3-media4.fl.yelpcdn.com/bphoto/75-5BoySy54fDNAY793i8A/o.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    /*background-blend-mode: color;*/
 }
 
-h1, h3 { color: red;
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+h1, h3 { 
+    color:#E05B4A;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #E05B4A !important;
+}
 
+#upcomingEvents_result, #topsong_result{
+    background-color: beige;
+    padding:10px;
+    color:inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: auto;
+}
+a{
+    color: black;
+}
+a:hover{
+    font-size: 20px;
+}
 
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    float: left;
+}
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+#merch {
+    color:white;
+}
+
+#searchTerm {
+    width: 50%;
+}
+.row{
+    margin: 10px;
+}
+
+td, tr{
+    padding:5px;
 }
